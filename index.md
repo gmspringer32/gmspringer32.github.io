@@ -24,3 +24,6 @@ Before you start cleaning data, you'll need to import the Pandas library. It pro
 
 ```python
 import pandas as pd
+```
+
+
