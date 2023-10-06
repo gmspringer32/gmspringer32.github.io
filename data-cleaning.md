@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Another page
 ---
 
----
-layout: default
----
+[back](./)
 
 # Cleaning DataFrames in Python: A Comprehensive Guide
 
@@ -30,8 +27,5 @@ Before you start cleaning data, you'll need to import the Pandas library. It pro
 ```python
 import pandas as pd
 ```
-
-
-
 
 [back](./)
