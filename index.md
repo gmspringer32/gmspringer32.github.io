@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Cleaning DataFrames in Python: A Comprehensive Guide
 
 Data cleaning is an essential step in any data analysis project. Messy, inconsistent, or incomplete data can lead to inaccurate results and unreliable insights. In Python, one of the most common data structures for data manipulation is the Pandas DataFrame. In this guide, we will explore various techniques and best practices for cleaning DataFrames in Python.
