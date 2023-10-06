@@ -22,7 +22,7 @@ Data cleaning is an essential step in any data analysis project. Messy, inconsis
 
 ## 1. Importing Pandas
 
-Before you start cleaning data, you'll need to import the Pandas library. It provides powerful tools for data manipulation, including DataFrames, which are like tables in a database but in Python. By convention you import it as pd.
+Before you start cleaning data, you'll need to import the Pandas library. It provides powerful tools for data manipulation, including DataFrames, which are like tables in a database but in Python. By convention, you import it as pd.
 
 ```python
 import pandas as pd
@@ -30,10 +30,12 @@ import pandas as pd
 
 ## 2. Loading Data
 
-Pandas offers ways to read in multiple different types of files like csv, html, json, excel, and many others. To keep it simple we will use a csv file provided here https://github.com/esnt/Data/raw/main/Flights/flights.csv.
+Pandas offers ways to read multiple different types of files like csv, html, json, excel, and many others. To keep it simple we will use a csv file provided here https://github.com/esnt/Data/raw/main/Flights/flights.csv.
 
 ```python
 df = pd.read_csv('https://github.com/esnt/Data/raw/main/Flights/flights.csv')
 ```
+
+
 
 [back](./)
