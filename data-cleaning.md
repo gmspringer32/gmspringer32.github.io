@@ -30,11 +30,17 @@ import pandas as pd
 
 ## 2. Loading Data
 
-Pandas offers ways to read multiple different types of files like csv, html, json, excel, and many others. To keep it simple we will use a csv file provided here https://github.com/esnt/Data/raw/main/Flights/flights.csv.
+Pandas offers ways to read multiple different types of files like csv, html, json, excel, and many others. To keep it simple we will use a csv file provided here https://github.com/esnt/Data/raw/main/Flights/flights.csv
 
 ```python
 df = pd.read_csv('https://github.com/esnt/Data/raw/main/Flights/flights.csv')
+print(df)
 ```
+
+## 3. Handling Missing Data
+Missing data is a common issue in real-world datasets. You can identify and handle missing values using methods like isnull(), fillna(), or dropna().
+
+We will look at
 
 
 
