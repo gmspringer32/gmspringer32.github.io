@@ -85,7 +85,7 @@ This fills all the NA values in that column with the mean of the departure times
 
 Congratulations! You took care of all the NA values in the dataframe. 
 
-## 4 Data Type Conversions
+## 4. Data Type Conversions
 
 Lets say now you wanted to make a date column. We have a YEAR DAY and MONTH column, so we need to combine those. Here are three things you can try. But note only the third one works
 
@@ -104,7 +104,7 @@ Now we can cast that column from a string to a datetime pandas object
 ```python
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 ```
-## 5 Handling Text Data
+## 5. Handling Text Data
 
 I am going to import some more data for this example
 ```python
