@@ -40,8 +40,12 @@ print(df)
 ## 3. Handling Missing Data
 Missing data is a common issue in real-world datasets. You can identify and handle missing values using methods like isnull(), fillna(), or dropna().
 
-We will look at
+We will look at the number of NA values in the dataset. The isna() function converts each value of the dataframe into TRUE or FALSE based on if it is na or not. Then the sum() function sums all the values of each column. Because TRUE maps to 1 and FALSE maps to 0, this will end up with the total number of na values in each column.
 
+```python
+df.isna().sum()
+```
 
+![alt text](./_pictures/na_sum.png)
 
 [back](./)
