@@ -3,3 +3,8 @@ description: A Guide Through the World of Data
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
