@@ -7,3 +7,7 @@ theme: jekyll-theme-cayman
 relative_links:
   enabled: true
   collections: true
+
+collections:
+  _posts:
+    permalink: /_posts/:path/
