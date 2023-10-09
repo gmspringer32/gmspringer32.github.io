@@ -46,6 +46,6 @@ We will look at the number of NA values in the dataset. The isna() function conv
 df.isna().sum()
 ```
 
-![alt text](./_pictures/na_sum.png)
+![alt text](/../_pictures/na_sum.png)
 
 [back](./)
