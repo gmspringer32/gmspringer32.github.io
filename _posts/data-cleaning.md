@@ -2,7 +2,7 @@
 layout: post
 ---
 
-[back](./)
+[back](../)
 
 # Cleaning DataFrames in Python: A Comprehensive Guide
 
@@ -48,4 +48,4 @@ df.isna().sum()
 
 ![alt text](/../_pictures/na_sum.png)
 
-[back](./)
+[back](../)
