@@ -101,9 +101,9 @@ df['date'] = str(df['day']) +  str(df['month']) + str(df['year'])
 df['date'] = df['day'].astype(str) + "-" + df['month'].astype(str) + "-" + df['year'].astype(str)
 ```
 
-So why don't the first two work? Ill the day month and year columns are integers so the first one will just add the numbers together. Ok so lets cast it to a string. But the second one doesn't work because it converts the whole column into a string, instead of each individual row. So you need to call the astype method for pandas. 
+So why don't the first two work? Well the day month and year columns are integers so the first one will just add the numbers together. Ok so lets cast it to a string. But the second one doesn't work because it converts the whole column into a string, instead of each individual row. So you need to call the astype method for pandas. 
 
-Now I can cast that column from a string to a datetime pandas object
+Now I can cast that column from a string to a datetime pandas object. This will make it easier to do date operations in the future.
 
 ```python
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
