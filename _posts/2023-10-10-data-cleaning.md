@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[back](../)
+[back](../../../)
 
 ![alt text](./data-cleaning-thumb.png)
 
@@ -158,4 +158,4 @@ Data cleaning is an iterative process, and each dataset may present unique chall
 
 I hope this guide has been a valuable resource in your data cleaning journey, and I encourage you to apply these principles to your projects to unlock the full potential of your data. Happy data cleaning, and may your analyses be filled with meaningful discoveries!
 
-[back](../)
+[back](../../../)
