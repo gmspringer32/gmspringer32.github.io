@@ -3,6 +3,8 @@ layout: default
 ---
 [back](../)
 
+![alt text](./pictures/bank-logo.jpg)
+
 # How I Scraped My Own Bank Transactions With Selenium
 
 Here is the [source code](https://github.com/gmspringer32/personal-budget-tool/tree/main/scraper). I kept all my bank account information private so you won't be able to see it.
