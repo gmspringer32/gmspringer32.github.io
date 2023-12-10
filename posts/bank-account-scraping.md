@@ -1,5 +1,3 @@
-[back](../)
-
 # How I Scraped My Own Bank Transactions With Selenium
 
 ![alt text](./pictures/bank-logo.jpg)
