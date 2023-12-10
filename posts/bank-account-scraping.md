@@ -1,11 +1,8 @@
----
-layout: default
----
 [back](../)
 
-![alt text](./pictures/bank-logo.jpg)
-
 # How I Scraped My Own Bank Transactions With Selenium
+
+![alt text](./pictures/bank-logo.jpg)
 
 Here is the [source code](https://github.com/gmspringer32/personal-budget-tool/tree/main/scraper). I kept all my bank account information private so you won't be able to see it.
 
@@ -25,11 +22,10 @@ Now the data was clean and ready to go!
 
 ### Ethical Considerations
 
-The only thing that I had to think about with this project is if I was violating any terms of agreement with my bank. I searched through all the papers and did not see any information on using automation to retrieve my own bank information. I just needed to be careful to not put any of my personal information in a public spot. 
+The only thing that I had to think about with this project is if I was violating any terms of agreement with my bank. I searched through all the papers and did not see any information on using automation to retrieve my own bank information. I just needed to be careful to not put any of my personal information in a public spot.
 
 ### Conclusion
 
 The decision to make a personalized solution presented its own challenges, delving into the intricacies of HTML with Selenium to scrape transaction data from my various accounts. The data collection phase resulted in a raw dataset that demanded meticulous cleaning, involving column restructuring, data pruning, and employing regular expressions for refining transaction descriptions, date conversions, and amount formatting. Ethical considerations centered on ensuring compliance with my bank's terms of agreement, prompting careful handling of personal information. This project, underscored by adaptability and resourcefulness, not only overcame constraints but also laid the groundwork for a personalized budgeting tool, aligning with the initial motivation for a more tailored financial management solution. Now onto creating a dahsboard!
-
 
 [back](../)
