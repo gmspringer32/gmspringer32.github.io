@@ -1,0 +1,24 @@
+The commit number sha for before my feeback was given - 95b8517c7be25d7a842e466f691dfc7abd1bd970
+
+Here is the feedback I got
+
+Camilla M — 12/9/23, 9:38 PM
+For the first one - I think it was really good. I thought the title was fun, it made it sound like a clickbait article haha.  The sections were nice and it was clear to read
+For the second one - can you make your green headings larger? so they aren't smaller than the text. And you have a typo in section 2 where you say "witch". Also in section 2, it switches to numbers that aren't blurred out. If that was an accident, you might want to fix that. If it was intentional, I would just put another comment saying that it was made with the dummy dataset. If it was intentional, then it seems a little weird to switch from blurred out numbers to real, and then back to blurred again. Other than that it was good!
+
+Orion — Yesterday at 3:18 PM
+Data Collection Post:
+@Garrett Springer I thought the title was fun as well.
+Reading through the Data Cleaning section, I think you switched tense a few times, so I'd go through and pick one to stick with. Also, I'd like to read about what some of the more challenging parts were (tricky regex pieces, how you came up with the entries in the categories dictionary)
+I'd also love to see a head() of the data or just some sort of other visual to break up the text.
+Great work!
+
+Dashboard:
+Your dashboard was extensive, that was impressive! If you're not planning on sharing the app with others it's probably not too big of a deal, but more documentation/instructions on the dashboard could help new users if they wanted to use it personally. 
+
+
+Aly Milne — Yesterday at 9:06 PM
+BRO THIS IS GREAT! Feedback:
+-I would love to see some code snippets. I know it's all included in the repo, but I think that's helpful to see as I'm following your process.
+-It would be helpful to have some instructions on how to use the dashboard
+
