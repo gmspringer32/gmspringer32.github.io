@@ -22,7 +22,7 @@ While looking at the data I came up with a list of questions to answer.
 4. What is my month to month spending in specific categories over the year?
 5. Can I make a budget to see where I am over and under spending?
 
-#### 1. What is my monthly income and in what categories?
+### 1. What is my monthly income and in what categories?
 
 To answer this question, I looked at the data where I gained money into my account. This was difficult because in my checking account this was denoted by a positive number, but in my credit card account, it was a negative amount. But here is what I found.
 
@@ -36,7 +36,7 @@ You can sort values by month. You can expand the budget tool as well but we will
 
 This is pretty much as expected, nothing really out of the ordinary. My wife works full time so she brings in most of the money right now.
 
-#### 2. What are my monthly expenses and in what categories?
+### 2. What are my monthly expenses and in what categories?
 
 The biggest questions I had was in regards to my expenses. Here are my findings.
 
@@ -54,7 +54,7 @@ So if I want to look at specifically what I spent over 500$ on I can just click 
 
 It looks like it was when I payed to play in a soccer league, but I also got venmo payments from all my teammates. So now that makes sense.
 
-#### 3. What are my total monthly expenses and monthly income over the year?
+### 3. What are my total monthly expenses and monthly income over the year?
 
 Now to look at expenses and income from month to month on the same graph.
 
@@ -62,7 +62,7 @@ Now to look at expenses and income from month to month on the same graph.
 
 This only includes from august because that is when my wife and I opened our bank account together. It looks like our spending and income is fairly steady over the months. It we had more spending in october than in the other months, we took a couple trips.
 
-#### 4. What are my month to month expenses in specific categories?
+### 4. What are my month to month expenses in specific categories?
 
 If I wanted to look at my spending for gas over the months here is what it looks like
 
@@ -74,7 +74,7 @@ And my wife and I decided not to eat out during the month of november so I can s
 
 It looks like we did pretty good on our goal!
 
-#### 5. Can I make a budget to see where I am over and under spending?
+### 5. Can I make a budget to see where I am over and under spending?
 
 I made a tool to make budgets for each category. This is what it looks like. This will show up on all the graphs as well whenever you save it.
 ![alt text](./pictures/budget10.png)
