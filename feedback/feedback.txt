@@ -1,11 +1,15 @@
-The commit number sha for before my feeback was given - 95b8517c7be25d7a842e466f691dfc7abd1bd970
+The commit number sha for before my feeback was given for my blog posts - 95b8517c7be25d7a842e466f691dfc7abd1bd970
+The commit number sha for before feedback was given on my dashboard - 284828378333567b7c7f4731fa42da29b8bee940
 
 Here is the feedback I got
 
+FOR EDA, COLLECTION
 Camilla M — 12/9/23, 9:38 PM
 For the first one - I think it was really good. I thought the title was fun, it made it sound like a clickbait article haha.  The sections were nice and it was clear to read
 For the second one - can you make your green headings larger? so they aren't smaller than the text. And you have a typo in section 2 where you say "witch". Also in section 2, it switches to numbers that aren't blurred out. If that was an accident, you might want to fix that. If it was intentional, I would just put another comment saying that it was made with the dummy dataset. If it was intentional, then it seems a little weird to switch from blurred out numbers to real, and then back to blurred again. Other than that it was good!
 
+
+FOR EDA, COLLECTION, AND DASHBOARD
 Orion — Yesterday at 3:18 PM
 Data Collection Post:
 @Garrett Springer I thought the title was fun as well.
@@ -17,8 +21,25 @@ Dashboard:
 Your dashboard was extensive, that was impressive! If you're not planning on sharing the app with others it's probably not too big of a deal, but more documentation/instructions on the dashboard could help new users if they wanted to use it personally. 
 
 
+FOR EDA AND DATA COLLECTION
 Aly Milne — Yesterday at 9:06 PM
 BRO THIS IS GREAT! Feedback:
 -I would love to see some code snippets. I know it's all included in the repo, but I think that's helpful to see as I'm following your process.
 -It would be helpful to have some instructions on how to use the dashboard
 
+
+FOR DASHBOARD
+Camilla M — Today at 12:43 PM
+are the graphics showing data from your dummy data, or from the numbers we can input at the top? When you upload a statement does it scrape the info and put it in? that's super cool. I wasn't sure if there was a way to add/subtract spending categories and job types. That could be useful
+
+FOR DASHBOARD
+Jeffry Troll — Today at 1:04 PM
+Hey Garret, you app looks pretty nice, it has very helpful graphs to see the insights of a budget. However, I'll add more context, like instructions that help you understand how to use it more efficiently. For example, I don't know which is the format for the new statement and also I don't know how to budget tool means. Still, it's very good idea.
+
+FOR DASHBOARD
+Aaron Brown — Today at 1:10 PM
+Awesome dashboard Garrett! It's super interactive and you have a good variety of visuals to help the user get to know more about their monthly income, spending, and other budgeting information. My one suggestion would be to include a brief description of the budget tool at the beginning of the dashboard to introduce the tool and its main components. I would also mention that the default outputs are based on dummy data, just so the user knows more of what they're looking at before they input their own bank statements. Good job overall though!
+
+Number of Dahsboard Feedbacks - 4
+Number of EDA post feebacks - 3
+Number of data Collection post feedbacks - 3
