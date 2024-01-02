@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Analytics Atlas
+title: Garrett Springer's Portfolio
 ---
 ## [**Data Cleaning in Pandas**](./posts/data-cleaning.md)
 
