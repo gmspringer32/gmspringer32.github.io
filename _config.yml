@@ -11,3 +11,5 @@ relative_links:
 collections:
   _posts:
     permalink: /_posts/:path/
+
+markdown: GFM
