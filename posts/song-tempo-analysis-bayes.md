@@ -8,13 +8,13 @@ What makes popular songs popular? We decided to test that question by comparing 
 
 ## Methods
 
-Data comes from the kaggle dataset "Spotify and Youtube", which took top artists top 10 songs and recorded the number of streams and views that each song has had over the last 20 years. Since the number of streams is a count with a strong right-tail decay we choose the exponential distribution. We broke our data up by filtering the songs that had greater that 120 bpm tempo as high tempo songs, and less than 120 bpm as low tempo songs (this break at 120 bpm was chosen by taking the average tempo of all songs, which was 120.607).
+Data comes from the kaggle dataset "Spotify and Youtube", which took top artists top 10 songs and recorded the number of streams and views that each song has had over the last 20 years. Since the number of streams is a count with a strong right-tail decay we choose the exponential distribution. We broke our data up by filtering the songs that had greater that 120 bpm tempo as high tempo songs, and less than 120 bpm as low tempo songs (this break at 120 bpm was chosen by taking the average tempo of all songs, which was 120.607.
 
-We changed the number of streams to be in millions of streams to make it easier to work with. The parameter in an exponential is \( \lambda \) and the mean and variance are as follows \( \text{mean} = \frac{1}{\lambda} \), \( \text{var} = \frac{1}{\lambda^2} \), \( (\text{sd} = \frac{1}{\lambda}) \). We have a mean of 138.6636653 which means that we should use a lambda of 0.0072 which means that our standard deviation should be the same as the mean (138) but our data standard deviation is 248.2687295. This could potentially be a problem because we will under predict the standard deviation. But for simplicity we will continue to use the exponential distribution model. From now on we will call \( \lambda \) \( \theta \).
+We changed the number of streams to be in millions of streams to make it easier to work with. The parameter in an exponential is $\lambda$ and the mean and variance are as follows $mean = \frac{1}{\lambda} \ \ \ \ var = \frac{1}{\lambda^2} \ \ \ \ (sd = 1/\lambda)$ We have a mean of f 138.6636653 which means that we should use a lambda of .0072 which means that our standard deviation should be the same as the mean (138) but our data standard deviation is 248.2687295. This could potentially be a problem because we will under predict the standard deviation. But for simplicity we will continue to use the exponential distribution model. From now on we will call $\lambda$ $\theta$.
 
-Our prior for \( \theta_{\text{high}} \) is \( \text{UN}(\frac{1}{240}, \frac{1}{60}) \) and \( \theta_{\text{low}} \) is \( \text{UN}(\frac{1}{190}, \frac{1}{10}) \) because we think that our mean is somewhere between 60 and 240 million streams for \( \theta_{\text{high}} \) and between 10 and 190 million streams for \( \theta_{\text{low}} \) and we chose a uniform distribution because we are not sure where to weight our priors. The assumption in our prior made here is that there is a difference between the distribution high tempo songs number of streams and low tempo songs number of streams with high tempo songs being more popular.
+Our prior for $\theta_{high}$ is $UN(\frac 1{240}, \frac 1{60})$ and $\theta_{low}$ is $UN(\frac 1 {190}, \frac1 {10})$ because we think that our mean is somewhere between 60 and 240 million streams for $\theta_{high}$ and between 10 and 190 million streams for $\theta_{low}$ and we chose a uniform distribution because we are not sure where to weight our priors. The assumption in our prior made here is that there is a difference between the distribution high tempo songs number of streams and low tempo songs number of streams with high tempo songs being more popular.
 
-Since the complete conditional is difficult to analytically derive we will be using the metropolis algorithm to formulate the posteriors.
+Since the complete conditional is difficult to analytically derive we will be using the metropolis algorithim to formulate the posteriors.
 
 Data: [kaggle/spotify](https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube)
 
@@ -28,7 +28,7 @@ We run the metropolis algorithm to get draws for our thetas for low and high tem
 
 ![alt text](./pictures/songs-bayes-2.png)
 
-Contrary to our prior beliefs the data suggests that high tempo songs have a slightly higher \( \theta \) than low tempo songs (this is not backed up with a 95% probability interval though).
+Contrary to our prior beliefs the data suggests that high tempo songs have a slightly higher $\theta$ than low tempo songs (this is not backed up with a 95% probability interval though).
 
 ### Low Tempo Songs Post vs Prior
 
@@ -50,17 +50,17 @@ The large data set here allows the posterior to be extremely informative as comp
 
 ### Answering the primary research question
 
-We take the ratio between \( \theta_{\text{high}} \) and \( \theta_{\text{low}} \), such that \( \frac {\theta_{\text{high}}}{\theta_{\text{low}}} \) to test our research hypothesis that high tempo and low tempo songs have different \( \theta \) parameters. We take the ratio instead of a pure difference because the support is for \( \theta > 0 \).
+We take the ratio between $\theta_{high}$ and $\theta_{low}$, such that $\frac {\theta_{high}}{\theta_{low}}$ to test our research hypothesis that high tempo and low tempo songs have different $\theta$ parameters. We take the ratio instead of a pure difference because the support is for $\theta > 0$.
 
 ![alt text](./pictures/songs-bayes-5.png)
 
-There is a 95% probability that the ratio between high tempo songs lambda parameter and the low tempo songs lambda parameter is between 0.9904 and 1.052. That credible interval contains 1 indicating that there is no statistical evidence that high tempo and low tempo songs have different \( \theta \) parameters for their number of streams.
+There is a 95% probability that the ratio between high tempo songs lambda parameter and the low tempo songs lambda parameter is between .9904 and 1.052. That credible interval contains 1 indicating that there is no statistical evidence that high tempo and low tempo songs have different $\theta$ parameters for their number of streams.
 
 ## Discussion
 
-Based on our credible intervals we cannot conclude that there is a significant difference between the number of streams of high tempo songs (over 120 bpm) and the streams of low tempo songs (under 120 bpm) because the distribution significantly overlap. Interestingly the data suggested that low tempo songs might have a slightly smaller \( \theta \) parameter (not significantly smaller with 95% probability intervals), this goes contrary to our prior beliefs that high tempo songs would have more streams.
+Based on our credible intervals we cannot conclude that there is a significant difference between the number of streams of high tempo songs (over 120 bpm) and the streams of low tempo songs (under 120 bpm) because the distribution significantly overlap. Interestingly the data suggested that low tempo songs might have a slightly smaller $\theta$ parameter (not significantly smaller with 95% probability intervals), this goes contrary to our prior beliefs that high tempo songs would have more streams.
 
-This model could have been improved by utilizing the gamma distribution instead of an exponential to model the data. The data didn't quite match the assumptions that the mean would equal it's variance, and the amount of songs that are produced with very little streams is very high. Another improvement could have been made in the grouping of high tempo and low tempo songs. The cutoff we used for tempo (120 bpm) was very arbitrarily chosen. It might have been more useful instead to model the relationship between song tempo and the amount of streams as linear regression problem.
+This model could have been improved by utilizing the gamma distribution instead of an exponential to model the data. The data didn't quite match the assumptions that the mean would equal it's variance, and the amount of songs that are produced with very little streams is very high. Another improvement could have been made in the grouping of high tempo and low tempo songs. The cutoff we used for tempo (120 bpm) was very arbitrarily chosen. It might have beem more useful instead to model the relationship between song tempo and the amount of streams as linear regression problem.
 
 ## Appendix
 
