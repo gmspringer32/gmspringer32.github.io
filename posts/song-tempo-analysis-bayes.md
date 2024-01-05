@@ -1,4 +1,4 @@
-# Song Tempo Analysis Using Metrop
+# Song Stream Analysis Using Metropolis
 
 Garrett Springer and Jaden Earl
 
@@ -75,7 +75,7 @@ summary(Spotify$Stream)
 Spotify <- Spotify %>% 
   mutate(logStreams = log(Stream)) %>% 
   mutate(streams_mil = Stream/1000000)
-        
+      
 highTempoSongs <- filter(Spotify, Tempo > 120)
 lowTempoSongs <- filter(Spotify, Tempo <= 120)
 ```
