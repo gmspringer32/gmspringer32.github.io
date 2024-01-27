@@ -4,7 +4,7 @@ title: Garrett Springer's Portfolio
 ---
 ## About Me
 
-* 👋 Hi, I'm Garrett Springer I am a Senoir and Data Science Major at Brigham Young University
+* 👋 Hi, I'm Garrett Springer I am a Senior and Data Science Major at Brigham Young University
 * 👀 I'm interested in sports, retail, and data
 * 💞️ I'm looking for an entry level data science job
 * 📫 Message me on [LinkedIn](https://www.linkedin.com/in/garrett-m-springer)!
