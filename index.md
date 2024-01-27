@@ -15,9 +15,11 @@ title: Garrett Springer's Portfolio
 * [NCAA March Madness Model using Random Forest](posts\ncaa-basketball-model\ncaa-basketball-model.md)
 * [Linear Regression in R](posts\linear-regression-in-r\linear-regression-in-r.md)
 
+|
 
+|
 
-
+|
 
 ## Machine Learning Projects
 
