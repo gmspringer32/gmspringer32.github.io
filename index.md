@@ -2,11 +2,9 @@
 layout: default
 title: Garrett Springer's Portfolio
 ---
-<div style="float: left; margin-right: 10px;">
-  <img src="profile_pic.jpg" alt="Profile Picture" width="100" height="100">
+<div style="float: right; margin-right: 10px;">
+  <img src="profile_pic.jpg" alt="Profile Picture" width="200" height="200">
 </div>
-<br/>
-<br/>
 
 
 ## About Me
