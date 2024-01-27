@@ -11,15 +11,24 @@ title: Garrett Springer's Portfolio
 
 ## My Top Projects
 
-* [Personal Budget Tool](./posts/budget-findings.md)
+* [Personal Budget Tool](./posts/budget-findings/budget-findings.md)
+* [NCAA March Madness Model using Random Forest](posts\ncaa-basketball-model\ncaa-basketball-model.md)
+* [Linear Regression in R](posts\linear-regression-in-r\linear-regression-in-r.md)
+
+
+
+
 
 ## Machine Learning Projects
 
+* [Linear Regression in R](posts\linear-regression-in-r\linear-regression-in-r.md)
+* [NCAA March Madness Model using Random Forest](posts\ncaa-basketball-model\ncaa-basketball-model.md)
+
 ## Data Cleaning/Scraping
 
-* [Data Cleaning in Pandas](./posts/data-cleaning.md)
-* [How I Scraped My Own Bank Transactions With Selenium](./posts/bank-account-scraping.md)
+* [Data Cleaning in Pandas](posts\data-cleaning\data-cleaning.md)
+* [How I Scraped My Own Bank Transactions With Selenium](posts\bank-account-scraping\bank-account-scraping.md)
 
 ## Bayesian Statistics
 
-* [Song Stream Analysis Using Metropolis](./posts/song-tempo-analysis-bayes.md)
+* [Song Stream Analysis Using Metropolis](posts\song-tempo-analysis\song-tempo-analysis-bayes.md)
