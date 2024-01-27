@@ -2,6 +2,13 @@
 layout: default
 title: Garrett Springer's Portfolio
 ---
+<div style="float: left; margin-right: 10px;">
+  <img src="profile_pic.jpg" alt="Profile Picture" width="100" height="100">
+</div>
+<br/>
+<br/>
+
+
 ## About Me
 
 * 👋 Hi, I'm Garrett Springer I am a Senior and Data Science Major at Brigham Young University
@@ -34,3 +41,7 @@ title: Garrett Springer's Portfolio
 ## Bayesian Statistics
 
 * [Song Stream Analysis Using Metropolis](posts\song-tempo-analysis\song-tempo-analysis-bayes.md)
+
+## Dashboards
+
+* [Personal Budget Tool](./posts/budget-findings/budget-findings.md)
