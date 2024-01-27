@@ -24,7 +24,6 @@ title: Garrett Springer's Portfolio
 <br/>
 <br/>
 <br/>
-<br/>
 
 ## Machine Learning Projects
 
