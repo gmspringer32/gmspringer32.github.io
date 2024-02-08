@@ -6,7 +6,6 @@ title: Garrett Springer's Portfolio
   <img src="profile_pic.jpg" alt="Profile Picture" width="200" height="200">
 </div>
 
-
 ## About Me
 
 * 👋 Hi, I'm Garrett Springer I am a Senior and Data Science Major at Brigham Young University
@@ -42,3 +41,14 @@ title: Garrett Springer's Portfolio
 ## Dashboards
 
 * [Personal Budget Tool](./posts/budget-findings/budget-findings.md)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+## My Notes
+
+* [Classification Notes](./posts/classification-notes/classification-notes.md)
