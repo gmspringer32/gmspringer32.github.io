@@ -52,3 +52,4 @@ title: Garrett Springer's Portfolio
 ## My Notes
 
 * [Classification Notes](./posts/classification-notes/classification-notes.md)
+* [Feature Selection Notes](./posts/feature-selection-notes/feature-selection-notes.md)

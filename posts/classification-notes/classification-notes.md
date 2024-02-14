@@ -1,7 +1,9 @@
+# Classification Notes
+
 ## Table of Contents
 
 1. [SMOTE](#smote-for-when-you-have-oversampling-of-one-level-of-target-variable)
-2. [ROC](#ROC-curve)
+2. [ROC](#roc-curve)
 
 ## SMOTE for when you have oversampling of one level of target variable
 
@@ -48,23 +50,22 @@ plot_roc_curves(X_test, [logreg, dmlp, mlp, knn, rf, xgb],
 
 **How to interpret ROC curve:**
 
-When doing classification, models will give a probability of being in each class. Then it will take a threshold (usually .5) and use the probability vs the threshold to classify. Then you take a bunch of thresholds and use that threshold against your probabilities and classify, then calculate the true positive rate and false positive rate for each threshold. 
+When doing classification, models will give a probability of being in each class. Then it will take a threshold (usually .5) and use the probability vs the threshold to classify. Then you take a bunch of thresholds and use that threshold against your probabilities and classify, then calculate the true positive rate and false positive rate for each threshold.
 
 However, this is only possible for certain models. In some models, the probability that is produced does not model the actual probability of being in a class. In rule-based models such as decision trees, it is a reflection of the distribution of classes at the leaf of the tree we reach when following the rules of the decision tree. So while the ROC curve still gives us a sense of the overall effectiveness of the model, the model does not make it's final choice of class based on the probability.
-
 
 There are many ways to find the best threshold. One is to use the J-statistic or Youden's J statistic
 
 J = Sensitivity + Specificity - 1
 
-Sensitivity = TP / (TP + FN) = True Positive Rate (TPR) 
+Sensitivity = TP / (TP + FN) = True Positive Rate (TPR)
 
-Specificity = TN / (TN + FP) = 1 - False Positive Rate (FPR) 
+Specificity = TN / (TN + FP) = 1 - False Positive Rate (FPR)
 
 J = TPR - FPR
 
-Youden's J statistic is the maximum value of J 
+Youden's J statistic is the maximum value of J
 
-You can calculate the J-statistic for different thresholds and choose the one with the maximum value 
+You can calculate the J-statistic for different thresholds and choose the one with the maximum value
 
 The threshold that maximizes J is the optimal threshold
