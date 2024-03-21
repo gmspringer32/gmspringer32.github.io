@@ -53,3 +53,4 @@ title: Garrett Springer's Portfolio
 
 * [Classification Notes](./posts/classification-notes/classification-notes.md)
 * [Feature Selection Notes](./posts/feature-selection-notes/feature-selection-notes.md)
+* [Dimension Reduction](./posts/diimension-reduction-notes/dimension-reduction-notes.md)
