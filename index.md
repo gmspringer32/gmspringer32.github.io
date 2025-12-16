@@ -15,9 +15,9 @@ title: Garrett Springer's Portfolio
 
 ## My Top Projects
 
-* [Personal Budget Tool](./posts/budget-findings/budget-findings.md)
-* [NCAA March Madness Model using Random Forest](./posts/ncaa-basketball-model/ncaa-basketball-model.md)
-* [Linear Regression in R](./posts/linear-regression-in-r/linear-regression-in-r.md)
+* [Personal Budget Tool](./posts/budget-findings/budget-findings)
+* [NCAA March Madness Model using Random Forest](./posts/ncaa-basketball-model/ncaa-basketball-model)
+* [Linear Regression in R](./posts/linear-regression-in-r/linear-regression-in-r)
 
 <br/>
 <br/>
@@ -26,21 +26,21 @@ title: Garrett Springer's Portfolio
 
 ## Machine Learning Projects
 
-* [Linear Regression in R](./posts/linear-regression-in-r/linear-regression-in-r.md)
-* [NCAA March Madness Model using Random Forest](./posts/ncaa-basketball-model/ncaa-basketball-model.md)
+* [Linear Regression in R](./posts/linear-regression-in-r/linear-regression-in-r)
+* [NCAA March Madness Model using Random Forest](./posts/ncaa-basketball-model/ncaa-basketball-model)
 
 ## Data Cleaning/Scraping
 
-* [Data Cleaning in Pandas](./posts/data-cleaning/data-cleaning.md)
-* [How I Scraped My Own Bank Transactions With Selenium](./posts/bank-account-scraping/bank-account-scraping.md)
+* [Data Cleaning in Pandas](./posts/data-cleaning/data-cleaning)
+* [How I Scraped My Own Bank Transactions With Selenium](./posts/bank-account-scraping/bank-account-scraping)
 
 ## Bayesian Statistics
 
-* [Song Stream Analysis Using Metropolis](./posts/song-tempo-analysis/song-tempo-analysis-bayes.md)
+* [Song Stream Analysis Using Metropolis](./posts/song-tempo-analysis/song-tempo-analysis-bayes)
 
 ## Dashboards
 
-* [Personal Budget Tool](./posts/budget-findings/budget-findings.md)
+* [Personal Budget Tool](./posts/budget-findings/budget-findings)
 
 <br/>
 <br/>
@@ -51,6 +51,6 @@ title: Garrett Springer's Portfolio
 
 ## My Notes
 
-* [Classification Notes](./posts/classification-notes/classification-notes.md)
-* [Feature Selection Notes](./posts/feature-selection-notes/feature-selection-notes.md)
-* [Dimension Reduction](./posts/diimension-reduction-notes/dimension-reduction-notes.md)
+* [Classification Notes](./posts/classification-notes/classification-notes)
+* [Feature Selection Notes](./posts/feature-selection-notes/feature-selection-notes)
+* [Dimension Reduction](./posts/diimension-reduction-notes/dimension-reduction-notes)
