@@ -3,6 +3,7 @@ layout: default
 title: Projects
 ---
 [Main Page](../../)
+
 [Notes](../notes/notes-index.md)
 
 ## Machine Learning
@@ -24,4 +25,5 @@ title: Projects
 * [Personal Budget Tool](./budget-findings/budget-findings.md)
 
 [Main Page](../../)
+
 [Notes](../notes/notes-index.md)
