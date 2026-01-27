@@ -9,7 +9,7 @@ title: Projects
 ## Machine Learning
 
 * [Linear Regression in R](./linear-regression-in-r/linear-regression-in-r.md)
-* [NCAA March Madness Model using Random Forest](./posts/projects/ncaa-basketball-model/ncaa-basketball-model.md)
+* [NCAA March Madness Model using Random Forest](./ncaa-basketball-model/ncaa-basketball-model.md)
 
 ## Data Cleaning/Scraping
 
