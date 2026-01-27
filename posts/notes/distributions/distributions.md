@@ -20,8 +20,8 @@ $$
 F(x) = \Phi\left(\frac{x-\mu}{\sigma}\right)
 $$
 
-Mean: μ  
-Variance: σ²
+Mean: $μ$  
+Variance: $σ²$
 
 ---
 
@@ -39,8 +39,8 @@ $$
 F(x) = \frac{x-a}{b-a}, \quad a \le x \le b
 $$
 
-Mean: (a + b) / 2  
-Variance: (b − a)² / 12
+Mean: $(a + b) / 2 $ 
+Variance: $(b − a)^2 / 12$
 
 ---
 
@@ -58,8 +58,8 @@ $$
 F(x) = 1 - e^{-\lambda x}
 $$
 
-Mean: 1 / λ  
-Variance: 1 / λ²
+Mean: $1 / λ$  
+Variance: $1 / λ^2$
 
 ---
 
@@ -77,8 +77,8 @@ $$
 F(x) = \frac{\gamma(\alpha, \beta x)}{\Gamma(\alpha)}
 $$
 
-Mean: α / β  
-Variance: α / β²
+Mean: $α / β$  
+Variance: $α / β^2$
 
 ---
 
@@ -96,8 +96,8 @@ $$
 F(x) = I_x(\alpha,\beta)
 $$
 
-Mean: α / (α + β)  
-Variance: (αβ) / [(α + β)²(α + β + 1)]
+Mean: $α / (α + β)$  
+Variance: $(αβ) / [(α + β)²(α + β + 1)]$
 
 ---
 
@@ -115,8 +115,8 @@ $$
 F(x) = \Phi\left(\frac{\ln x - \mu}{\sigma}\right)
 $$
 
-Mean: exp(μ + σ² / 2)  
-Variance: (exp(σ²) − 1) exp(2μ + σ²)
+Mean: $exp(μ + σ² / 2)$ 
+Variance: $(exp(σ²) − 1) exp(2μ + σ²)$
 
 ---
 
@@ -141,8 +141,8 @@ F(x) =
 \end{cases}
 $$
 
-Mean: p  
-Variance: p(1 − p)
+Mean: $p$  
+Variance: $p(1 − p)$
 
 ---
 
@@ -160,8 +160,8 @@ $$
 F(k) = \sum_{i=0}^k \binom{n}{i} p^i (1-p)^{n-i}
 $$
 
-Mean: np  
-Variance: np(1 − p)
+Mean: $np$  
+Variance: $np(1 − p)$
 
 ---
 
@@ -179,8 +179,8 @@ $$
 F(k) = 1 - (1-p)^k
 $$
 
-Mean: 1 / p  
-Variance: (1 − p) / p²
+Mean: $1 / p$ 
+Variance: $(1 − p) / p^2$
 
 ---
 
@@ -217,8 +217,8 @@ $$
 F(k) = \sum_{i=0}^k \binom{i+r-1}{i} (1-p)^i p^r
 $$
 
-Mean: r(1 − p) / p  
-Variance: r(1 − p) / p²
+Mean: $r(1 − p) / p $ 
+Variance: $r(1 − p) / p^2$
 
 ---
 
@@ -236,8 +236,8 @@ $$
 F(k) = \sum_{i=0}^k \frac{\binom{K}{i} \binom{N-K}{n-i}}{\binom{N}{n}}
 $$
 
-Mean: n(K / N)  
-Variance: n(K / N)(1 − K / N)\frac{N − n}{N − 1}
+Mean: $n(K / N)$
+Variance: $n(K / N)(1 − K / N)\frac{N − n}{N − 1}$
 
 [Main Page](../../../)
 
