@@ -6,6 +6,9 @@ title: Notes
 
 [Projects](../projects/projects-index.md)
 
+## Statistics
+* [Distributions](./distributions/distributions.md)
+
 ## Machine Learning
 
 * [Classification Notes](./classification-notes/classification-notes.md)
