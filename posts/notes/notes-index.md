@@ -8,6 +8,7 @@ title: Notes
 
 ## Statistics
 * [Distributions](./distributions/distributions.md)
+* [Statistical Estimators](./estimators-notes/estimators.md)
 
 ## Machine Learning
 
