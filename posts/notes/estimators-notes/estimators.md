@@ -23,6 +23,9 @@ abline(0, 1, col = "red")
 ```
 ![](qqplot.png)
 
+As you can see, this line is not completely straight despite the fact that we know we are drawing from a normal distribution using ``` rnorm ```. This is because our sample size is only 100 and the 50th percentile of a standard normal distribution is 0, but the 5th percentile of our sample data is the median, which could be something other than 0. This is the case for every quantile. So our sample will never be exactly the same as the theoretical distribution. The bigger our sample gets however, the closer to the straight line it will be.
+
+![](qqplot2.png)
 
 [Main Page](../../../)
 
