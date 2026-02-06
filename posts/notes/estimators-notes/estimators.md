@@ -27,7 +27,7 @@ As you can see, this line is not completely straight despite the fact that we kn
 
 ![](qqplot2.png)
 
-Now to use this to estimate parameters, it is important to note that this will only work with location scale distribution families. To do this, we plot our data against the standard version of the distribution we are estimating, fit a linear regression line to the plotted points and $\beta_0$ is approx. the mean and $\beta_1$ is approx. the standard deviation. 
+Now to use this to estimate parameters, it is important to note that this will only work with location scale distribution families. To do this, we plot our data against the standard version of the distribution we are estimating, fit a linear regression line to the plotted points and $\beta_0$ is approx. the location and $\beta_1$ is approx. the scale. 
 
 As an example, we will use the Weibull distribution. "But wait!" you say, "weibull is not a location scale distribution!" And you are right. But, if we do a log transformation of the quantile function for the theoretical distribution and our data, it becomes a location scale distribution. Lets say that our data follows a weibull distribution with shape k = 1.5 and scale $\lambda$ = 2 (pretend like we don't know that for real we are trying to estimate that).
 
