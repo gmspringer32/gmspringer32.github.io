@@ -38,11 +38,10 @@ $$
 
 **log transformation of Weibull Quantile Function**
 $$
-\log x = 
-\underbrace{\log \lambda}_{\text{intercept}} 
-+ 
-\underbrace{\frac{1}{k}}_{\text{slope}} \cdot 
-\log\bigl(-\log(1-p)\bigr)
+\overset{\mathrm{intercept}}{\log \lambda}
++
+\overset{\mathrm{slope}}{\frac{1}{k}}
+\log\!\left(-\log(1-p)\right)
 $$
 
 **Standard Weibull Quantile on log scale**
