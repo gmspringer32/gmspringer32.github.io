@@ -41,7 +41,7 @@ $$
 \overset{\mathrm{intercept}}{\log \lambda}
 +
 \overset{\mathrm{slope}}{\frac{1}{k}}
-\log\!\left(-\log(1-p)\right)
+\log\left(-\log(1-p)\right)
 $$
 
 **Standard Weibull Quantile on log scale**
