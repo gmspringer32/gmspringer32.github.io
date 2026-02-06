@@ -46,9 +46,11 @@ $$
 
 **Standard Weibull Quantile on log scale**
 $$
-shape \ 𝑘=1 \\
-scale \ \lambda = 1 \\
-log(-log(1-p))
+\begin{array}{l}
+\text{shape } k = 1 \\
+\text{scale } \lambda = 1 \\
+\log(-\log(1-p))
+\end{array}
 $$
 
 ```{r}
