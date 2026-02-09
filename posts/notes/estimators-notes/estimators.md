@@ -89,6 +89,45 @@ k_hat <- 1 / slope
 
 From the above R code, we can see that our estimates for $\lambda$ and k are 1.97 and 1.42 respectively which is pretty close to our original parameters of 2 and 1.5.
 
+
+## Maximum Likelihood Estimators (MLE)
+Maximum likelihood estimators help you choose the most likely parameter values of your distribution given your data. Basically you assume a distribution then ask, what is the most plausible parameters for my data? Here are the steps.
+
+1) Specify the distribution.
+2) Write the likelihood function as the product of your variables across your distribution.
+$$
+L(\theta|x_1,... ,x_n) = \prod_{i=1}^{n} f(x_i|\theta)
+$$
+3) Take the log of the likelihood to get the log-likelihood.
+$$
+\ell(\theta) = logL(\theta)
+$$
+4) Take partial derivatives of the log-likelihood with respect to the parameters you are estimating.
+$$
+\frac{\partial \ell(\theta)}{\partial \theta} 
+$$
+5) Set partial derivative to 0 and solve for the parameter. This gives the MLE.
+$$
+\frac{\partial \ell(\theta)}{\partial \theta} =0
+$$
+6) Check and see if that is actually the maximum. Take the second derivative to make sure that isn't a local maximum.
+
+**Example with the exponential distribution**
+
+$$
+\begin{array}{l c}
+\text{Step 1:} & \displaystyle f(X) = \lambda e^{-\lambda x} \\[6pt]
+\text{Step 2:} & \displaystyle L(\lambda) = f(\lambda \mid x_1,\dots,x_n)
+= \prod_{i=1}^{n} \lambda e^{-\lambda x_i} \\[6pt]
+& \displaystyle = \lambda^n \exp\!\left(-\lambda \sum_{i=1}^{n} x_i\right) \\ \\[10pt]
+\text{Step 3:} & \displaystyle \ell(\lambda) = n \log(\lambda) - \lambda \sum x_i \\[10pt]
+\text{Step 4:} & \displaystyle \frac{\partial \ell(\lambda)}{\partial \lambda}
+= \frac{n}{\lambda} - \sum x_i \\ \\[10pt]
+\text{Step 5:} & \displaystyle \frac{n}{\lambda} - \sum x_i = 0 \\[6pt]
+& \displaystyle \hat{\lambda} = \frac{n}{\sum x_i}
+\end{array}
+$$
+
 [Main Page](../../../)
 
 [Projects](../../projects/projects-index.md)
