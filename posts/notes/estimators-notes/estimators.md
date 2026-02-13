@@ -114,19 +114,18 @@ $$
 
 **Example with the exponential distribution**
 
+$$ \text{Step 1: } f(X) = \lambda e^{-\lambda x} $$
+
 $$
-\begin{align*}
-\text{Step 1:} & \quad f(X) = \lambda e^{-\lambda x} \\[6pt]
-\text{Step 2:} & \quad L(\lambda) = f(\lambda \mid x_1,\dots,x_n)
-= \prod_{i=1}^{n} \lambda e^{-\lambda x_i} \\[6pt]
-& \quad = \lambda^n \exp\!\Big(-\lambda \sum_{i=1}^{n} x_i\Big) \\[10pt]
-\text{Step 3:} & \quad \ell(\lambda) = n \log(\lambda) - \lambda \sum x_i \\[10pt]
-\text{Step 4:} & \quad \frac{\partial \ell(\lambda)}{\partial \lambda}
-= \frac{n}{\lambda} - \sum x_i \\[10pt]
-\text{Step 5:} & \quad \frac{n}{\lambda} - \sum x_i = 0 \\[6pt]
-& \quad \hat{\lambda} = \frac{n}{\sum x_i}
-\end{align*}
+\text{Step 2: } L(\lambda) = f(\lambda \mid x_1,\dots,x_n)
+= \prod_{i=1}^{n} \lambda e^{-\lambda x_i} = \lambda^n \exp\!\Big(-\lambda \sum_{i=1}^{n} x_i\Big)
 $$
+
+$$ \text{Step 3: } \ell(\lambda) = n \log(\lambda) - \lambda \sum x_i $$
+
+$$ \text{Step 4: } \frac{\partial \ell(\lambda)}{\partial \lambda} = \frac{n}{\lambda} - \sum x_i $$
+
+$$ \text{Step 5: } \frac{n}{\lambda} - \sum x_i = 0, \quad \hat{\lambda} = \frac{n}{\sum x_i} $$
 
 [Main Page](../../../)
 
