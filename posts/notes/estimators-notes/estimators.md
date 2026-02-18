@@ -2,7 +2,8 @@
 
 [Projects](../../projects/projects-index.md)
 
-# Statistical Estimators
+# Statistical Parameters Estimators
+You know the distribution that your data follows generally but need to estimate the parameters of that distribution. For example, you know your data is normal, but you need to estimate the population parameters based on your data.
 ## Graphical estimators for location scale families (QQ plot)
 Quantile-Quantile (QQ) plots are used to compare the quantile functions of two distributions in order to see how alike the two distributions are. To do this we plot the theoretical quantiles on the x axis and the empirical quantiles on the y axis. The straighter the line is, the more alike the two distributions are. 
 
