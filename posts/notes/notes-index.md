@@ -12,7 +12,7 @@ title: Notes
 * [Statistical Distributions Estimators](./distribution-estimators/distribution-estimators.md)
 
 ## Machine Learning
-
+* [Curse of Dimensionality](./curse-of-dimensionality/curse-of-dimensionality.md)
 * [Classification Notes](./classification-notes/classification-notes.md)
 * [Feature Selection Notes](./feature-selection-notes/feature-selection-notes.md)
 * [Dimension Reduction](./diimension-reduction-notes/dimension-reduction-notes.md)
