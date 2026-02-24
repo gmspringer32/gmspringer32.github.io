@@ -12,4 +12,6 @@ collections:
   _posts:
     permalink: /_posts/:path/
 
-markdown: GFM
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
