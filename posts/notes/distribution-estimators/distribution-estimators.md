@@ -55,7 +55,7 @@ $$
 
 Since $n = 5$, the ECDF values at the ordered points are:
 
-| $x_{(k)}$ | $\hat{F}_n(x_{(k)})$ |
+| $x_{(k)}$ | \(\hat{F}_n(x_{(k)})\) |
 |------------|-----------------------|
 | 2 | $\frac{1}{5} = 0.2$ |
 | 3 | $\frac{2}{5} = 0.4$ |
